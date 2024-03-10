@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card_body p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.card_body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .border{
+    border: 2px solid #dedede;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #dedede;
+  }
+  .border_active{
+    border: 2px solid red;
+  }
+  
+ 
+  .custom-select{
+    display: flex;
+    gap:50px;
+    justify-content:space-between;
+    margin: 100px;
+    padding-left: 190px;
+    
+  }
+  .stickers{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 80px;
+    
+  }
+  .stickers img{
+    padding-top: 50px;
+  }
+  .inputs_section{
+    background-color: bisque;
+    padding-bottom: 50px;
+  }
+  #calcular{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+  }
+  .btn-calcular{
+    padding-left: 400px;
+    
+  }
+  #mensaje{
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 0px;
+    
+  }
+  h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  #ingresar{
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: black;
+    background-color: bisque;
+    font-weight: bold;
+    font-size: 20px;
+    
+  }
+  #ingresar:hover{
+    background-color: black;
+    color: white;
+  }
+  select{
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  #mensajepassword{
+    font-size: 35px;
+  }
+  option{
+    font-size: 20px;
+    font-weight: 600;
+  }
